@@ -541,7 +541,7 @@
             </div>
           </div>
           <div class="row mb-40">
-            <div class="col-lg-3 width-20">
+            <div class="col-lg-2 width-20">
               <h5 class="text-18-medium color-white mb-20 wow fadeInUp">Our Company</h5>
               <ul class="menu-footer wow fadeInUp">
                 <li><a href="index.html">Home</a></li>
@@ -556,7 +556,7 @@
   
               </ul>
             </div>
-            <div class="col-lg-3 width-20 mb-30">
+            <div class="col-lg-2 width-20 mb-30">
               <h5 class="text-18-medium color-white mb-20 wow fadeInUp">Services</h5>
               <ul class="menu-footer wow fadeInUp">
                 <li><a href="business-service.html">Business</a></li>
@@ -566,7 +566,7 @@
                 <li><a href="airport-service.html">Airport transfer</a></li>
               </ul>
             </div>
-            <div class="col-lg-3 width-20 mb-30">
+            <div class="col-lg-2 width-20 mb-30">
               <h5 class="text-18-medium color-white mb-20 wow fadeInUp">Our Cars</h5>
               <ul class="menu-footer wow fadeInUp">
                 <li><a href="#">BMW M8</a></li>
@@ -578,7 +578,7 @@
               </ul>
             </div>
             <!-- newslatter start-->
-            <div class="col-lg-3 width-20 mb-30 d-flex flex-column gap-3">
+            <div class="col-lg-4 new_letter_bg mb-30 d-flex flex-column align-items-center gap-3">
               <!-- <h5 class="text-18-medium color-white mb-20 wow fadeInUp">Newsletter</h5>
                 <div class="input-group mb-30 wow fadeInUp d-flex">
                   <input type="text" class="form-control" placeholder="Enter your email" style="width: 100px; height: 4vh;">
@@ -587,28 +587,68 @@
                   </div>
                 </div> -->
               <style>
+                .new_letter_div,.email_input,
+                .subscribe_button , .subscribe_button_style,
+                #email, .new_letter_div{
+                  width: 100%;
+                }
+                .new_letter_bg{
+                  background-color: rgba(41, 38, 35, 0.918);
+                  width: 40%;
+                  border-radius: 10px;
+                  padding-top: 10px;
+                  padding-bottom: 10px;
+                }
+                .new_letter_div{
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+                  text-align: center;
+                  gap: 20px;
+                }
                 .email_input,
                 .subscribe_button {
-                  width: 150%;
                   height: 90px;
-                  background-color:ghostwhite;
-                
+                  background-color: white;
+                  border-radius: 10px;
                 }
   
                 .subscribe_button_style,
                 #email {
-                  width: 150%;
                   height: 90px;
-                  border: 1px solid blue;
-                  background-color: turquoise;
-                  border-radius: 5px;
+                  border: 1px solid black;
+                  background-color: white;
+                  border-radius: 10px;
+                }
+                input[type='email']::placeholder,input{
+                  text-align: center;
+                  font-size: large;
+                }
+                .subscribe_button button{
+                  font-size: large;
+
+                }
+                .subscribe_button button:hover{
+                  background-color: rgb(197, 18, 18) ;
+                  color : white;
+                }
+                @media screen and (max-width : 776px) {
+                  .new_letter_div,.email_input,
+                .subscribe_button , .subscribe_button_style,
+                #email,.new_letter_div{
+                  width: 100%;
+                }
                 }
               </style>
-              <h5 class="text-white">News Letter</h5>
-              <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi aliquam iure
+              <div class="new_letter_div">
+                <h5 class="text-white new_letter_head">News Letter</h5>
+              <p class="text-white new_letter_detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi aliquam iure
                 necessitatibus minus a molestiae quae nam asperiores possimus qui.</p>
+              </div>
+              
               <div class="email_input">
-                <input type="email" name="email" id="email">
+                <input type="email" name="email" id="email" placeholder="Write your Email here">
               </div>
               <div class="subscribe_button">
                 <button class="subscribe_button_style" type="button">Subscribe</button>
