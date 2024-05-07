@@ -6536,7 +6536,7 @@ footer a {
   right: 0px;
   background-color: #ffffff;
   position: absolute;
-  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.05);
+  /*box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.05)*/
 }
 .box-search-ride-style-2 .box-form-search {
   display: flex;
@@ -6580,6 +6580,7 @@ footer a {
 
 .nav-tabs-search {
   border-bottom: 1px solid #E5E5E5;
+ 
 }
 .nav-tabs-search li {
   padding: 0px 30px;
