@@ -505,8 +505,26 @@ h6 {
   font-weight: 700;
 }
 
+
+
+
+.icon-bar a {
+  position: fixed;
+  bottom: 60px;
+  left: 20px;
+  display: block;
+  font-size: xx-large;
+  padding: 19px;
+  color: green;
+  border-radius: 50px;
+}
+.whatsapp {
+  background: red;
+  color: white;
+}
+
 .color-success {
-  color: #06D6A0;
+  color:#06D6A0;
 }
 
 .color-warning {
