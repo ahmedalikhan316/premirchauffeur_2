@@ -10,6 +10,7 @@
     <meta name="keywords" content="index, page">
     <meta name="author" content="">
     <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/template/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="assets/css/style.css?v=1.0.0" rel="stylesheet">
     <title>PremeirChauffuer is a leading industry service base company to serve people</title>
   </head>
@@ -475,43 +476,32 @@
             </div>
           </div>
           <div class="row mb-40">
-            <div class="col-lg-3 width-20">
+            <div class="col-lg-2 width-20">
               <h5 class="text-18-medium color-white mb-20 wow fadeInUp">Our Company</h5>
               <ul class="menu-footer wow fadeInUp">
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Safety</a></li>
-                <li><a href="#">Sustainability</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="fleet.html">Our Fleet</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+               
                 <!--start--<li><a href="#">Gift cards</a></li>-->
   
               </ul>
             </div>
-            <div class="col-lg-3 width-20 mb-30">
-              <h5 class="text-18-medium color-white mb-20 wow fadeInUp">Top cities</h5>
-              <ul class="menu-footer wow fadeInUp">
-                <li><a href="#">New York</a></li>
-                <li><a href="#">London</a></li>
-                <li><a href="#">Berlin</a></li>
-                <li><a href="#">Los Angeles</a></li>
-                <li><a href="#">Paris</a></li>
-              </ul>
-            </div>
-            <div class="col-lg-3 width-20 mb-30">
+            <div class="col-lg-2 width-20 mb-30">
               <h5 class="text-18-medium color-white mb-20 wow fadeInUp">Services</h5>
               <ul class="menu-footer wow fadeInUp">
-                <li><a href="#">By The Hour</a></li>
-                <li><a href="#">Weddings</a></li>
-                <li><a href="#">One Way</a></li>
-                <li><a href="#">Tours</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">Airport transfer</a></li>
+                <li><a href="business-service.html">Business</a></li>
+                <li><a href="wedding-service.html">Wedding</a></li>
+                <li><a href="event-service.html">Events</a></li>
+                <li><a href="tour-service.html">Tours</a></li>
+                <li><a href="airport-service.html">Airport transfer</a></li>
               </ul>
             </div>
-            <div class="col-lg-3 width-20 mb-30">
+            <div class="col-lg-2 width-20 mb-30">
               <h5 class="text-18-medium color-white mb-20 wow fadeInUp">Our Cars</h5>
               <ul class="menu-footer wow fadeInUp">
                 <li><a href="#">BMW M8</a></li>
@@ -523,7 +513,7 @@
               </ul>
             </div>
             <!-- newslatter start-->
-            <div class="col-lg-3 width-20 mb-30 d-flex flex-column gap-3">
+            <div class="col-lg-4 new_letter_bg mb-30 d-flex flex-column align-items-center gap-3">
               <!-- <h5 class="text-18-medium color-white mb-20 wow fadeInUp">Newsletter</h5>
                 <div class="input-group mb-30 wow fadeInUp d-flex">
                   <input type="text" class="form-control" placeholder="Enter your email" style="width: 100px; height: 4vh;">
@@ -531,26 +521,73 @@
                     <button class="btn btn-danger" type="button" >Subscribe</button>
                   </div>
                 </div> -->
+                <div class="icon-bar">
+                  <a href="#" class="whatsapp"><i class="fa fa-whatsapp"></i></a> 
+                </div>
+
               <style>
+                .new_letter_div,.email_input,
+                .subscribe_button , .subscribe_button_style,
+                #email, .new_letter_div{
+                  width: 100%;
+                }
+                .new_letter_bg{
+                  background-color: rgba(41, 38, 35, 0.918);
+                  width: 40%;
+                  border-radius: 10px;
+                  padding-top: 10px;
+                  padding-bottom: 10px;
+                }
+                .new_letter_div{
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+                  text-align: center;
+                  gap: 20px;
+                }
                 .email_input,
                 .subscribe_button {
-                  width: 100%;
-                  height: 60px;
+                  height: 90px;
+                  background-color: white;
+                  border-radius: 10px;
                 }
   
                 .subscribe_button_style,
                 #email {
+                  height: 90px;
+                  border: 1px solid black;
+                  background-color: white;
+                  border-radius: 10px;
+                }
+                input[type='email']::placeholder,input{
+                  text-align: center;
+                  font-size: large;
+                }
+                .subscribe_button button{
+                  font-size: large;
+
+                }
+                .subscribe_button button:hover{
+                  background-color: rgb(197, 18, 18) ;
+                  color : white;
+                }
+                @media screen and (max-width : 776px) {
+                  .new_letter_div,.email_input,
+                .subscribe_button , .subscribe_button_style,
+                #email,.new_letter_div{
                   width: 100%;
-                  height: 50px;
-                  border: 1px solid blue;
-                  border-radius: 5px;
+                }
                 }
               </style>
-              <h5 class="text-white">News Letter</h5>
-              <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi aliquam iure
+              <div class="new_letter_div">
+                <h5 class="text-white new_letter_head">News Letter</h5>
+              <p class="text-white new_letter_detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi aliquam iure
                 necessitatibus minus a molestiae quae nam asperiores possimus qui.</p>
+              </div>
+              
               <div class="email_input">
-                <input type="email" name="email" id="email">
+                <input type="email" name="email" id="email" placeholder="Write your Email here">
               </div>
               <div class="subscribe_button">
                 <button class="subscribe_button_style" type="button">Subscribe</button>
@@ -567,7 +604,7 @@
               <div class="col-lg-8 col-md-12 text-center text-lg-start"><span class="text-14 color-white mr-50">© 2024
                   Luxride</span>
                 <ul class="menu-bottom">
-                  <li><a href="term-conditions.html">Terms</a></li>
+                  <li><a href="#">Terms</a></li>
                   <li><a href="term-conditions.html">Privacy policy</a></li>
                   <li><a href="term-conditions.html">Legal notice</a></li>
                   <li><a href="#">Accessibility</a></li>
