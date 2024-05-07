@@ -7770,9 +7770,12 @@ footer a {
 .banner-home10 .box-cover-image::before {
   opacity: 0.5;
 }
-.banner-home10 .box-banner-info {
-  transform: translateY(-50%);
-  top: 50%;
+
+@media screen and (min-width:778px) {
+  .banner-home10 .box-banner-info {
+    transform: translateY(-50%);
+    top: 60%;
+  }
 }
 
 .btn-play-big {
