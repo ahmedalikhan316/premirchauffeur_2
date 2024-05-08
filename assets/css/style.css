@@ -2937,7 +2937,8 @@ body {
   display: none;
 }
 .header .main-menu > li {
-  padding: 23px 0px 23px 0px;
+  padding: 23px 0px 0px 0px;
+  margin-bottom: 2px;
 }
 .header .main-menu li {
   float: left;
@@ -10408,14 +10409,14 @@ textarea.form-control {
                 }
                 .email_input,
                 .subscribe_button {
-                  height: 90px;
+                  height: 60px;
                   background-color: white;
                   border-radius: 10px;
                 }
   
                 .subscribe_button_style,
                 #email {
-                  height: 90px;
+                  height: 60px;
                   border: 1px solid black;
                   background-color: white;
                   border-radius: 10px;
@@ -10447,3 +10448,13 @@ textarea.form-control {
                 }
                 }
                 /* footer css  end*/
+                /* navbar on active css start*/
+                /* Your existing styles for navbar can go here */
+
+                  .nav-item.active {
+                    font-size: large;
+                    border-bottom : 2px solid white;
+                    border-radius : 10px;
+                    }
+
+                /* navbar on active css end*/

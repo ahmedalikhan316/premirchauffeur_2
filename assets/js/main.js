@@ -1005,3 +1005,10 @@ if ($(".swiper-group-2-single-fleet").length > 0) {
 if ($(".mobile-header-wrapper-inner").length) {
     const ps = new PerfectScrollbar(".mobile-header-wrapper-inner");
 }
+// navbar active js
+$(document).ready(function() {
+    $('.nav-item').click(function() {
+        $('.nav-item').removeClass('active');
+        $(this).addClass('active');
+    });
+});
