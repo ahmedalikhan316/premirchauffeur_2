@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="assets/css/style.css?v=1.0.0" rel="stylesheet">
   <title>PremierChauffuer is a leading industry service base company to serve people</title>
+  
 </head>
 
 <body>
@@ -42,15 +43,15 @@
           <div class="header-nav">
             <nav class="nav-main-menu d-none d-xl-block">
               <ul class="main-menu">
-                <li class=""><a class="active" href="index.html">Home</a>
+                <li class=""><a class="nav-item active" href="index.html">Home</a>
 
                 </li>
-                <li class=""><a href="about.html">About</a>
+                <li class=""><a class="nav-item " href="about.html">About</a>
                 </li>
-                <li class=""><a href="fleet.html">Our Fleet</a>
+                <li class=""><a class="nav-item "   href="fleet.html">Our Fleet</a>
 
                 </li>
-                <li class="has-children"><a href="service-grid.html">Services</a>
+                <li class="has-children nav-item"><a href="service-grid.html">Services</a>
                   <ul class="sub-menu">
                     <li><a href="business-service.html">Business</a></li>
                     <li><a href="wedding-service.html">Wedding</a></li>
@@ -59,10 +60,10 @@
                     <li><a href="tour-service.html">Tour</a></li>
                   </ul>
                 </li>
-                <li class=""><a href="blog.html">Blog</a>
+                <li class=""><a class="nav-item " href="blog.html">Blog</a>
                 </li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a class="nav-item " href="contact.html">Contact</a></li>
+                <li><a class="nav-item " href="FAQ.html">FAQ</a></li>
               </ul>
             </nav>
             <div class="burger-icon burger-icon-white"><span class="burger-icon-mid"></span><span
@@ -496,6 +497,7 @@
       <div class="box-slide-fleet mt-50">
         <div class="box-swiper">
           <div class="swiper-container swiper-group-4-fleet pb-0">
+            
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="cardFleet wow fadeInUp">
@@ -717,7 +719,22 @@
         </div>
       </div>
       <div class="box-slide-fleet mt-50">
+        
         <div class="box-swiper">
+          <div class="box-pagination-fleet">
+            <div class="swiper-button-prev swiper-button-prev-fleet">
+              <svg fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"></path>
+              </svg>
+            </div>
+            <div class="swiper-button-next swiper-button-next-fleet">
+              <svg fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
+              </svg>
+            </div>
+          </div>
           <div class="swiper-container swiper-group-4-service pb-0">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
@@ -926,6 +943,7 @@
         </div>
       </div>
     </section>
+    
 
     <!-- blogs start-->
     <section class="section pt-120 pb-90 bg-primary">
@@ -1116,6 +1134,20 @@
       </div>
     </div>
   </footer>
+  <script>
+    // jQuery example
+    $(document).ready(function(){
+  $('nav ul li a').click(function(){
+    // Remove 'nav-active' class from all <a> elements
+    $('nav ul li a').removeClass('nav-active');
+    // Add 'nav-active' class to the clicked <a> element
+    $(this).addClass('nav-active');
+  });
+});
+
+
+
+  </script>
   <script src="assets/js/vendors/modernizr-3.6.0.min.js"></script>
   <script src="assets/js/vendors/jquery-3.6.0.min.js"></script>
   <script src="assets/js/vendors/jquery-migrate-3.3.0.min.js"></script>
