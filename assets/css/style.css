@@ -402,6 +402,27 @@ h6 {
   font-size: 24px;
   line-height: 32px;
 }
+/*whatapp icon */
+.icon-bar {
+  position: fixed;
+  top: 90%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+} 
+
+.icon-bar a {
+  display: block;
+  font-size: large;
+  padding: 16px;
+  color: #ffffff !important;
+  border-radius: 50px;
+}
+.whatsapp {
+  background: #05ce20 !important;
+  color: #448edd;
+}
+/*whatapp icon end*/
 
 .bg-white {
   background-color: #ffffff;
@@ -10459,39 +10480,4 @@ textarea.form-control {
                     }
 
                 /* navbar on active css end*/
-                /* services carousel */
-                @media (max-width: 768px) {
-                  .carousel-inner .carousel-item > div {
-                      display: none;
-                  }
-                  .carousel-inner .carousel-item > div:first-child {
-                      display: block;
-                  }
-              }
-              
-              .carousel-inner .carousel-item.active,
-              .carousel-inner .carousel-item-next,
-              .carousel-inner .carousel-item-prev {
-                  display: flex;
-              }
-              
-              /* display 3 */
-              @media (min-width: 768px) {
-                  
-                  .carousel-inner .carousel-item-right.active,
-                  .carousel-inner .carousel-item-next {
-                    transform: translateX(33.333%);
-                  }
-                  
-                  .carousel-inner .carousel-item-left.active, 
-                  .carousel-inner .carousel-item-prev {
-                    transform: translateX(-33.333%);
-                  }
-              }
-              
-              .carousel-inner .carousel-item-right,
-              .carousel-inner .carousel-item-left{ 
-                transform: translateX(0);
-              }
-               /* services carousel  end*/
-              
+             
