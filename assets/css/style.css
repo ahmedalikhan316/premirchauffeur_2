@@ -405,7 +405,7 @@ h6 {
 /*whatapp icon */
 .icon-bar {
   position: fixed;
-  top: 90%;
+  top: 99%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -537,7 +537,7 @@ h6 {
   font-size: xx-large;
   padding: 19px;
   color: green;
-  border-radius: 50px;
+  border-radius: 20px;
 }
 .whatsapp {
   background: red;
@@ -2994,7 +2994,7 @@ body {
   color: #fff;
   line-height: 24px;
   display: block;
-  padding: 5px 33px 5px 15px;
+  padding: 5px 25px 5px 25px;
   text-decoration: none;
   position: relative;
 }
@@ -3565,7 +3565,7 @@ body {
   visibility: hidden;
   opacity: 0;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-  background-color: #ffffff;
+  background-color:black;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.09);
   z-index: 1003;
   padding-top: 66px;
@@ -3640,7 +3640,7 @@ body {
   opacity: 0.5;
 }
 .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-content-area .mobile-menu-wrap nav .mobile-menu li.has-children.active > .menu-expand {
-  background: rgba(255, 255, 255, 0.2);
+  background: black;
 }
 .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-content-area .mobile-menu-wrap nav .mobile-menu li.has-children.active > .menu-expand i::before {
   content: "\f113";
@@ -3653,7 +3653,7 @@ body {
   font-weight: 500;
   position: relative;
   display: inline-block;
-  color: #181A1F;
+  color: white;
   transition-duration: 0.2s;
   text-decoration: none;
 }
@@ -3682,7 +3682,7 @@ body {
   line-height: 35px;
   display: block;
   font-weight: 400;
-  color: #626262;
+  color: white;
   padding-left: 10px;
   position: relative;
   transition-duration: 0.2s;
