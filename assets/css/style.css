@@ -402,7 +402,7 @@ h6 {
   font-size: 24px;
   line-height: 32px;
 }
-/*whatapp icon */
+/*whatapp icon 
 .icon-bar {
   position: fixed;
   top: 99%;
@@ -414,15 +414,15 @@ h6 {
 .icon-bar a {
   display: block;
   font-size: large;
-  padding: 16px;
+  padding: 19px;
   color: #ffffff !important;
-  border-radius: 50px;
+  border-radius: 60px;
 }
 .whatsapp {
   background: #05ce20 !important;
   color: #448edd;
 }
-/*whatapp icon end*/
+whatapp icon end*/
 
 .bg-white {
   background-color: #ffffff;
@@ -527,22 +527,24 @@ h6 {
 }
 
 
-
+/*whatapp icon*/
 
 .icon-bar a {
   position: fixed;
   bottom: 60px;
   left: 20px;
   display: block;
-  font-size: xx-large;
+  font-size: x-large;
   padding: 19px;
-  color: green;
-  border-radius: 20px;
+  color: white;
+  border-radius: 60px;
 }
 .whatsapp {
-  background: red;
+  background: green;
   color: white;
 }
+/* whatapp icon end*/
+
 
 .color-success {
   color:#06D6A0;
@@ -569,7 +571,7 @@ h6 {
 }
 
 .color-white {
-  color: #fff !important;
+  color:white !important;
 }
 
 .section {
@@ -4561,9 +4563,9 @@ footer a {
   padding-top: 115px !important;
 }
 
-.pt-120 {
+/* .pt-120 {
   padding-top: 120px !important;
-}
+} */
 
 .pt-125 {
   padding-top: 125px !important;
@@ -4725,9 +4727,9 @@ footer a {
   padding-bottom: 115px !important;
 }
 
-.pb-120 {
+/* pb-120 {
   padding-bottom: 120px !important;
-}
+} */
 
 .pb-125 {
   padding-bottom: 125px !important;
